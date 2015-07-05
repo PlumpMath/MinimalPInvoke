@@ -1,0 +1,9 @@
+
+*.user
+*.suo
+*.metaproj
+_ReSharper.*
+*.ReSharper
+*.GhostDoc.xml
+obj
+bin

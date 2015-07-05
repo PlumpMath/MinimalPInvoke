@@ -6,7 +6,7 @@
   <body onload="onLoad()">    
     <script type="text/javascript">
       var jsilConfig = {
-	    libraryRoot: "../JSIL/Libraries/",
+	      libraryRoot: "../JSIL/Libraries/",
         manifestRoot: "bin/JSIL/",
         scriptRoot: "bin/JSIL/",
         fileRoot: "bin/JSIL/",
@@ -14,6 +14,7 @@
         contentRoot: "bin/JSIL/Content/",
         manifests: [          
           "MinimalPInvoke.exe",
+          "../../clib.dll"
         ],
         readOnlyStorage: true,
         localStorage: true
@@ -31,12 +32,12 @@
     <canvas id="canvas" width="1280" height="720">
     </canvas><br>
  
-    <script type="text/javascript">
+    <script type="text/javascript">    
       function runMain () {
         window.asm = JSIL.GetAssembly("MinimalPInvoke", true);
-        //var module = JSIL.PInvoke.GetModule("clib.dll");
+        var module = JSIL.PInvoke.GetModule("clib.dll");
         //module.memoryInitializerPrefixURL = "/Libraries/SDL2/";
-        //module.printErr = function(s) { console.error(s) };
+        module.printErr = function(s) { console.error(s) };
         asm.MinimalPInvoke.Program.Main();
       };
     </script>

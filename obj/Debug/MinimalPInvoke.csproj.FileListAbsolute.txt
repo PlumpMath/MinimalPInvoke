@@ -1,7 +1,0 @@
-C:\Users\Jaiden\sq\MinimalPInvoke\MinimalPInvoke\bin\Debug\MinimalPInvoke.exe.config
-C:\Users\Jaiden\sq\MinimalPInvoke\bin\Debug\MinimalPInvoke.exe.config
-C:\Users\Jaiden\sq\MinimalPInvoke\obj\Debug\MinimalPInvoke.csprojResolveAssemblyReference.cache
-C:\Users\Jaiden\sq\MinimalPInvoke\bin\Debug\MinimalPInvoke.exe
-C:\Users\Jaiden\sq\MinimalPInvoke\bin\Debug\MinimalPInvoke.pdb
-C:\Users\Jaiden\sq\MinimalPInvoke\obj\Debug\MinimalPInvoke.exe
-C:\Users\Jaiden\sq\MinimalPInvoke\obj\Debug\MinimalPInvoke.pdb
